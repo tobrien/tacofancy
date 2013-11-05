@@ -42,11 +42,17 @@ Notes on Writing & Naming Conventions
   
 
 Are You New to Github But Want to Contribute?
-------------------------------------------------------
+---------------------------------------------
 
 No better time than the present to learn Git! Thankfully, this repo is pretty simple, and pretty much everything you'd want to know is contained in Github's very handy [Fork A Repo](https://help.github.com/articles/fork-a-repo) section on their also super good [help section](https://help.github.com).
 
 _Perhaps others can contribute helpful Git 101 links & tips here._
+
+To generate the HTML for the site, run the following command: 
+
+	mdown --input "**/*.md" --output _site --header "assets/header.html" --footer "assets/footer.html"
+
+This is dependant on the [Github Flavored Markdown Node.js CLI](https://github.com/millermedeiros/gh-markdown-cli).
 
 Endnotes
 --------
